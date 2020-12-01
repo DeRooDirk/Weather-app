@@ -22,7 +22,7 @@
 }
 
 nav {
-    background-color: rgba(128, 128, 128, 0.308);
+    background-color: rgb(74, 161, 243);
 }
 
 .container {
@@ -93,7 +93,7 @@ p {
 }
 
 i {
-    color: blue;
+    color: rgb(74, 161, 243);
 }
 
 .info-icon {
@@ -146,6 +146,8 @@ th {
     font-weight: bold;
     font-size: 18px;
     color: white;
+    margin: 5px;
+    padding: 1em;
 }
 
 td {
@@ -155,12 +157,19 @@ td {
 }
 
 .container-five {
-    background-color: aqua;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 50px auto;
 }
 
 .table {
-    background-color: brown;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+
+#submitForecast {
+    padding: 10px;
+    background-color: rgb(74, 161, 243);
+    margin-left: 10px;
+    border: none;
 }
