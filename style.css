@@ -1,0 +1,83 @@
+/* font-family: 'Merriweather', serif; */
+
+
+/*  font-family: 'Merienda', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: rgba(95, 158, 160, 0.582);
+    height: 100vh;
+    max-width: 100vw;
+    background-image: url(/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 45vh;
+    max-width: 100vw;
+}
+
+nav {
+    background-color: rgba(128, 128, 128, 0.308);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 10px
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+    margin: 20px;
+}
+
+.bottom {
+    background-color: rgb(190, 186, 184);
+    height: 65vh;
+    max-width: 100%;
+}
+
+.container-Two {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(49, 114, 199);
+    font-family: 'Merienda', cursive;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: .7rem;
+    color: rgb(37, 39, 41);
+    letter-spacing: 1px;
+    margin: 5px;
+}
