@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>My Weather app</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="index.html" class="navbar-brand navbar-link weather">
+                        <img src="logo.png" class="img-responsive" id="logo" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">My Basic Weather App</a>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <a href="current.html">Current Weather</a>
+                </li>
+                <li>
+                    <a href="#">Weather Forecast </a>
+                </li>
+                <li>
+                    <a href="http://www.openweathermap.org">Open Weather Info </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1> Get Weather Forecasts</h1>
+    <h3>Enter City Name & days off forcast</h3>
+    <div>
+        <div class="container-five">
+            <input type="text" name="city" id="city" class="form-control" placeholder="Enter city name">
+            <input type="text" name="days" id="days" class="form-control" placeholder="Number: Min - 1 & Max - 16">
+            <button id="submitForecast" class="btn btn-primary">Search City</button>
+        </div>
+        <table class="table table-bordered">
+            <div id="header" class="text-center"></div>
+
+            <thead>
+                <tr>
+                    <th>Icon</th>
+                    <th>Weather</th>
+                    <th>Description</th>
+                    <th>Morning Temperature</th>
+                    <th>Night Temperature</th>
+                    <th>Min. Temperature</th>
+                    <th>Max. Temperature</th>
+                    <th>Pressure</th>
+                    <th>Humidity</th>
+                    <th>Wind Speed</th>
+                    <th>Wind Direction</th>
+                </tr>
+            </thead>
+
+            <tbody id="forecastWeather">
+
+            </tbody>
+
+        </table>
+    </div>
+    <footer>
+        <h3>Made With Love &copy; Zoowie</h3>
+        <ul>
+            <li>
+                <a href="https://codepen.io/dirk-de-roo"><i class="fa fa-codepen"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/DeRooDirk"><i class="fa fa-github-alt"></i></a>
+            </li>
+
+        </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./forecast.js"></script>
+</body>
+
+</html>

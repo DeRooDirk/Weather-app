@@ -53,6 +53,7 @@ a {
 .bottom {
     background-color: rgb(190, 186, 184);
     max-width: 100%;
+    height: 55vh;
 }
 
 .container-Two {
@@ -117,4 +118,49 @@ i {
     justify-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
+}
+
+.app {
+    width: 80%;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.button {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type='text'] {
+    height: 40px;
+    font-size: 20px;
+}
+
+table {
+    color: rgb(51, 51, 51);
+    font-family: Helvetical, Arial, sans-serif;
+}
+
+th {
+    background: rgb(74, 161, 243);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+td {
+    background: rgb(250, 250, 250);
+    text-align: center;
+    font-size: 18px;
+}
+
+.container-five {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    background-color: brown;
+    margin: 0 auto;
 }
