@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.css" integrity="sha512-C7hOmCgGzihKXzyPU/z4nv97W0d9bv4ALuuEbSf6hm93myico9qa0hv4dODThvCsqQUmKmLcJmlpRmCaApr83g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1>Weather app</h1>
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="on" class="search-box" placeholder="Search for a city..." />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Location</div>
+                <div class="date">Date</div>
+            </section>
+            <div class="current">
+                <div class="temp">-<span>°c</span></div>
+                <div class="weather">-</div>
+                <div class="hi-low">-°c / -°c</div>
+            </div>
+        </main>
+    </div>
+    <!--<canvas id="myChart" width="500" height="500" aria-label="Hello World" role="img"></canvas>...-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+    <script src="./chart.js"></script>
+    <script src="zoo.js"></script>
+</body>
+
+</html>

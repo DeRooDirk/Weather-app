@@ -20,7 +20,7 @@ function getForecast() {
 
                 var table = '';
 
-                var header = '<h1 style="font-weight:bold; font-size:30px; margin-top:20px;">Weather forecast for ' + data.city.name + ', ' + data.city.country + '</h1>';
+                var header = '<h1>Weather forecast for ' + data.city.name + ', ' + data.city.country + '</h1>';
 
                 for (var i = 0; i < data.list.length; i++) {
                     table += "<tr>";
