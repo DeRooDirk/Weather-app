@@ -20,6 +20,7 @@ AppOne i made with use of Jquery (has current and weather forecast)
 https://github.com/DeRooDirk/Weather-app/tree/main/appOne
 
 AppTwo i made without without use of a library (only current weather).
+https://github.com/DeRooDirk/Weather-app/tree/main/appTwo
 
 https://deroodirk.github.io/Weather-app/.
 
