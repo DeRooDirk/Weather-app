@@ -3,8 +3,6 @@ $(document).ready(function() {
     $("#submitCity").click(function() {
         return getWeather();
     });
-
-
 });
 
 function getWeather() {
@@ -18,23 +16,14 @@ function getWeather() {
             dataType: "jsonp",
             success: function(data) {
                 var widget = showResults(data);
-
-
                 $("#showWeather").html(widget);
-
                 $("#city").val('');
             }
-
         });
-
-
     } else {
         $("#error").html("<div class='alert alert-danger' id='errorCity'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>City field cannot be empty</div>");
     }
-
-
 }
-
 
 function showResults(data) {
     return '<h1 style="font-weight:bold; font-size:30px; padding-top:20px;" class="text-center">Current Weather for ' + data.name + ', ' + data.sys.country + '</h1>' +
